@@ -2,6 +2,8 @@
 
 Complete LAMP configuration.
 
+[![Build Status](https://travis-ci.org/configuresystems/ansible.lamp.svg)](https://travis-ci.org/configuresystems/ansible.lamp)
+
 ## REQUIREMENTS:
 
 Ansible 1.6

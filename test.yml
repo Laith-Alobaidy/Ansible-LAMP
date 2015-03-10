@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - { role: IUS-repos, tags: ius-repos }
+    - apache2
+    - php5
+    - { role: mysql, tags: mysql }
+    - { role: phpmyadmin, tags: phpmyadmin }
+    - { role: holland, tags: holland }
